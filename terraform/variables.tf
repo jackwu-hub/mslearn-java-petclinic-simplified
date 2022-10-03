@@ -1,14 +1,14 @@
 variable "resource_group" {
   description = "The resource group"
-  default = "CHANGE_ME_RESOURCE_GROUP"
+  default = "petclinic-simplified"
 }
 
 variable "application_name" {
   description = "The Spring Boot application name"
-  default     = "CHANGE_ME_APP_NAME"
+  default     = "petclinic-simplified-app"
 }
 
 variable "location" {
   description = "The Azure location where all resources in this example should be created"
-  default     = "westeurope"
+  default     = "eastus"
 }
